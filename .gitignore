@@ -1,10 +1,26 @@
-# Java compiled files
-*.class
+# C++ build output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
 
-# Build output folders
-out/
-bin/
-target/
+# Compiled files and binaries
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
 
 # macOS
 .DS_Store
+
+# IDE settings
+.idea/
+.vscode/
